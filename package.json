@@ -1,0 +1,24 @@
+{
+  "name": "projetelectronbelotte",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saphire63/projetElectronBelotte.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Saphire63/projetElectronBelotte/issues"
+  },
+  "homepage": "https://github.com/Saphire63/projetElectronBelotte#readme",
+  "devDependencies": {
+    "electron": "^34.0.1"
+  }
+}
