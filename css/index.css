@@ -1,0 +1,9 @@
+body{
+    background-color:black ;
+    color: whitesmoke;
+    text-align: center;
+}
+h1{
+    text-decoration: underline;
+    padding-bottom: 2.5px;
+}
