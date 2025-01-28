@@ -7,3 +7,15 @@ h1{
     text-decoration: underline;
     padding-bottom: 2.5px;
 }
+
+table{
+    margin:auto;
+    margin-top: 50px;
+    border-collapse: collapse;
+}
+
+table td, table th{
+    border: 2px solid white;
+    padding: 5px;
+    
+}
