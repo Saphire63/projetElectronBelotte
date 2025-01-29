@@ -1,5 +1,5 @@
 const { app, BrowserWindow } = require('electron')
-import { creerTableau } from './fonctionsJS/tableau';
+
 require('electron-reload')(__dirname);
 const createWindow = () => {
     const win = new BrowserWindow({

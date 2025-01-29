@@ -1,18 +1,16 @@
 export function creerTableau(lignes, colonnes) {
+    console.log(`Création d'un tableau de ${lignes} lignes et ${colonnes} colonnes`);
+
     const table = document.createElement("table");
     for (let i = 0; i < lignes; i++) {
-        const tr = document.createElement("tr");
-
+        const row = document.createElement("tr");
         for (let j = 0; j < colonnes; j++) {
-            const td = document.createElement("td");  
-            td.textContent = `Ligne ${i + 1}, Colonne ${j + 1}`; 
-            tr.appendChild(td);  
+            const cell = document.createElement("td");
+            cell.textContent = `(${i},${j})`;
+            row.appendChild(cell);
         }
-
-
-        table.appendChild(tr);
+        table.appendChild(row);
     }
 
-    document.getElementById("tableau").appendChild(table);
+    document.body.appendChild(table);
 }
-
